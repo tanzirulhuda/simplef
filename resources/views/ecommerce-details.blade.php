@@ -21,39 +21,39 @@
                             <div class="swiper-wrapper align-items-center">
 
                                 <div class="swiper-slide">
-                                    <img src="{{ asset('img/image1.png') }}" alt="">
+                                    <img src="{{ asset('img/products/ecommerce/image1.png') }}" alt="">
                                 </div>
 
                                 <div class="swiper-slide">
-                                    <img src="{{ asset('img/image2.png') }}" alt="">
+                                    <img src="{{ asset('img/products/ecommerce/image2.png') }}" alt="">
                                 </div>
 
                                 <div class="swiper-slide">
-                                    <img src="{{ asset('img/image3.png') }}" alt="">
+                                    <img src="{{ asset('img/products/ecommerce/image3.png') }}" alt="">
                                 </div>
 
                                 <div class="swiper-slide">
-                                    <img src="{{ asset('img/image4.png') }}" alt="">
+                                    <img src="{{ asset('img/products/ecommerce/image4.png') }}" alt="">
                                 </div>
 
                                 <div class="swiper-slide">
-                                    <img src="{{ asset('img/image5.png') }}" alt="">
+                                    <img src="{{ asset('img/products/ecommerce/image5.png') }}" alt="">
                                 </div>
 
                                 <div class="swiper-slide">
-                                    <img src="{{ asset('img/admin1.png') }}" alt="">
+                                    <img src="{{ asset('img/products/ecommerce/admin1.png') }}" alt="">
                                 </div>
 
                                 <div class="swiper-slide">
-                                    <img src="{{ asset('img/admin2.png') }}" alt="">
+                                    <img src="{{ asset('img/products/ecommerce/admin2.png') }}" alt="">
                                 </div>
 
                                 <div class="swiper-slide">
-                                    <img src="{{ asset('img/admin3.png') }}" alt="">
+                                    <img src="{{ asset('img/products/ecommerce/admin3.png') }}" alt="">
                                 </div>
 
                                 <div class="swiper-slide">
-                                    <img src="{{ asset('img/admin4.png') }}" alt="">
+                                    <img src="{{ asset('img/products/ecommerce/admin4.png') }}" alt="">
                                 </div>
 
                             </div>

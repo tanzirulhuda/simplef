@@ -329,13 +329,13 @@
                     <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                         <a href="{{url('/details/ecommerce-details')}}">
                             <div class="portfolio-img" style="max-height: 400px; overflow: hidden;"><img
-                                src="{{ asset('img/image1.png') }}" class="img-fluid"
+                                src="{{ asset('img/products/ecommerce/image1.png') }}" class="img-fluid"
                                 alt=""></div>
                         </a>
                         <div class="portfolio-info">
                             <h4>Advanced E-commerce website</h4>
                             <p>Using Laravel & Vue JS</p>
-                            <a href="{{ asset('img/image1.png') }}" data-gallery="portfolioGallery"
+                            <a href="{{ asset('img/products/ecommerce/image1.png') }}" data-gallery="portfolioGallery"
                                 class="portfolio-lightbox preview-link" title="Advanced E-commerce website"><i
                                     class="bx bx-plus"></i></a>
                             <a href="{{url('/details/ecommerce-details')}}" class="details-link" title="More Details"><i

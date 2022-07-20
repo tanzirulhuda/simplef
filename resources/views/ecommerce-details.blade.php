@@ -190,7 +190,7 @@
                             Khulna<br>
                             Bangladesh <br>
                             <strong>Phone:</strong> +8801310641939<br>
-                            <strong>Email:</strong> tanzirulhudatapantor@gmail.com<br>
+                            <strong>Email:</strong> info@simplef.xyz<br>
                         </p>
                     </div>
 

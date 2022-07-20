@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,3 +20,6 @@ Route::get('/', function () {
 Route::get('/details/ecommerce-details', function () {
     return view('ecommerce-details');
 });
+
+// Contact form
+Route::post('contact-us', [ ContactController::class, 'saveContact' ])->name('contact-us');

@@ -10,9 +10,8 @@
             <div class="row">
                 <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
                     data-aos="fade-up" data-aos-delay="200">
-                    <h1>All Websites Should Be Fast, Beautiful & Get You Customers</h1>
-                    <h2>Your business deserves a new website, and we can help. We use the latest technology to launch your
-                        business into the online world.</h2>
+                    <h1>Everything we do is driven by working to make something different and simple.</h1>
+                    <h2>The general purpose of Simplef is to develop and promote advanced information technologies for multi-user operation.</h2>
                     <div class="d-flex justify-content-center justify-content-lg-start">
                         <a href="#about" class="btn-get-started scrollto">Get Started</a>
                         <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->

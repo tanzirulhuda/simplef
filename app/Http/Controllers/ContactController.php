@@ -11,14 +11,14 @@ class ContactController extends Controller
 {
     public function saveContact(Request $request)
     {
-        $contact = new Contact;
+        // $contact = new Contact;
 
-        $contact->name = $request->name;
-        $contact->email = $request->email;
-        $contact->subject = $request->subject;
-        $contact->message = $request->message;
+        // $contact->name = $request->name;
+        // $contact->email = $request->email;
+        // $contact->subject = $request->subject;
+        // $contact->message = $request->message;
 
-        $contact->save();
+        // $contact->save();
 
         \Mail::send(
             'contact-email',

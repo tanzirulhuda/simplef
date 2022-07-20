@@ -8,6 +8,10 @@
     <title> @yield('title')- Simplef</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
+
+    <!-- Pixel Code for https://notificationpro.simplef.xyz/ -->
+<script defer src="https://notificationpro.simplef.xyz/pixel/meyoysfajlv0h9q92goui164p8ezcir8"></script>
+<!-- END Pixel Code -->
     <!-- Favicons -->
     <link href="{{ asset('img/simplef_icon.png') }}" rel="icon">
     <link href="{{ asset('img/simplef_icon.png') }}" rel="apple-touch-icon">

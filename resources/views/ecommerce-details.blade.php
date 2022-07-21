@@ -72,7 +72,7 @@
                                 <li><strong>Demo URL</strong></li>
                                 <li><strong>Frontend</strong>: <a href="http://marymart.xyz/">View demo</a></li>
                                 <li><strong>Admin</strong>: <a href="http://marymart.xyz/admin">View demo</a></li>
-                                <li><strong>Email</strong>: email</li>
+                                <li><strong>Email</strong>: tanzirulhudatapantor@gmail.com</li>
                                 <li><strong>Password</strong>: 123456</li>
                                 <div>
                                     <a href="{{url('/')}}#contact">

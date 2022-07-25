@@ -9,6 +9,10 @@ use PhpParser\Node\Stmt\Return_;
 
 class ContactController extends Controller
 {
+    public function index(){
+        return view('contact');
+    }
+    
     public function saveContact(Request $request)
     {
         // $contact = new Contact;
@@ -34,6 +38,6 @@ class ContactController extends Controller
             }
         );
 
-        return Redirect()->back()->with('message', 'Your message has been send successfully!');
+        return Redirect()->route('home')->with('message', 'Your message has been send successfully!');
     }
 }

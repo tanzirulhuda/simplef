@@ -16,10 +16,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('home');
 Route::get('/details/ecommerce-details', function () {
     return view('ecommerce-details');
 });
 
 // Contact form
+Route::get('/contact', [ ContactController::class, 'index' ])->name('contact');
 Route::post('contact-us', [ ContactController::class, 'saveContact' ])->name('contact-us');

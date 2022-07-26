@@ -17,11 +17,12 @@
             <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
                 <div class="w-full lg:w-6/12 px-4">
                     <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-slate-200">
-                        <form action="{{route('contact-us')}}" method="POST">
+                        <form action="{{ route('contact-us') }}" method="POST">
                             @csrf
                             <div class="flex-auto p-5 lg:p-10">
                                 <h4 class="text-2xl font-semibold">We would love to hear from you?</h4>
-                                <p class="leading-relaxed mt-1 mb-4 text-slate-500">Complete this form and we will get back to
+                                <p class="leading-relaxed mt-1 mb-4 text-slate-500">Complete this form and we will get back
+                                    to
                                     you in 24 hours.</p>
                                 <div class="relative w-full mb-3 mt-8"><label
                                         class="block uppercase text-slate-600 text-xs font-bold mb-2" for="full-name">Full
@@ -108,10 +109,8 @@
                                 <li><a class="text-slate-600 hover:text-slate-800 font-semibold block pb-2 text-sm"
                                         href="#" target="_blank">About us</a></li>
                                 <li><a class="text-slate-600 hover:text-slate-800 font-semibold block pb-2 text-sm"
-                                        href="#" target="_blank">Terms &amp; Conditions</a>
+                                        href="{{ route('legal') }}">Legal</a>
                                 </li>
-                                <li><a class="text-slate-600 hover:text-slate-800 font-semibold block pb-2 text-sm"
-                                        href="#" target="_blank">Privacy Policy</a></li>
                                 <li><a class="text-slate-600 hover:text-slate-800 font-semibold block pb-2 text-sm"
                                         href="{{ route('contact') }}" target="_blank">Contact Us</a></li>
                             </ul>

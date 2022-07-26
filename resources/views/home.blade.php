@@ -220,10 +220,8 @@
                                 <li><a class="text-slate-600 hover:text-slate-800 font-semibold block pb-2 text-sm"
                                         href="#" target="_blank">About us</a></li>
                                 <li><a class="text-slate-600 hover:text-slate-800 font-semibold block pb-2 text-sm"
-                                        href="#" target="_blank">Terms &amp; Conditions</a>
+                                        href="{{route('legal')}}">Legal</a>
                                 </li>
-                                <li><a class="text-slate-600 hover:text-slate-800 font-semibold block pb-2 text-sm"
-                                        href="#" target="_blank">Privacy Policy</a></li>
                                 <li><a class="text-slate-600 hover:text-slate-800 font-semibold block pb-2 text-sm"
                                         href="{{ route('contact') }}">Contact Us</a></li>
                             </ul>

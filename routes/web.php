@@ -24,3 +24,8 @@ Route::get('/details/ecommerce-details', function () {
 // Contact form
 Route::get('/contact', [ ContactController::class, 'index' ])->name('contact');
 Route::post('contact-us', [ ContactController::class, 'saveContact' ])->name('contact-us');
+
+// Legal
+Route::get('/legal', function(){
+    return view('legal');
+})->name('legal');
